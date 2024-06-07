@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD1125FF2C136ED7008F9E6A /* teams_always_online_v2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1125FE2C136ED7008F9E6A /* teams_always_online_v2App.swift */; };
+		BD1126012C136ED7008F9E6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1126002C136ED7008F9E6A /* ContentView.swift */; };
+		BD1126032C136EDA008F9E6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD1126022C136EDA008F9E6A /* Assets.xcassets */; };
+		BD1126062C136EDA008F9E6A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD1126052C136EDA008F9E6A /* Preview Assets.xcassets */; };
+		BD1126112C136EDA008F9E6A /* teams_always_online_v2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1126102C136EDA008F9E6A /* teams_always_online_v2Tests.swift */; };
+		BD11261B2C136EDA008F9E6A /* teams_always_online_v2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD11261A2C136EDA008F9E6A /* teams_always_online_v2UITests.swift */; };
+		BD11261D2C136EDA008F9E6A /* teams_always_online_v2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD11261C2C136EDA008F9E6A /* teams_always_online_v2UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD11260D2C136EDA008F9E6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD1125F32C136ED7008F9E6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD1125FA2C136ED7008F9E6A;
+			remoteInfo = "teams-always-online-v2";
+		};
+		BD1126172C136EDA008F9E6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD1125F32C136ED7008F9E6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD1125FA2C136ED7008F9E6A;
+			remoteInfo = "teams-always-online-v2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD1125FB2C136ED7008F9E6A /* teams-always-online-v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "teams-always-online-v2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD1125FE2C136ED7008F9E6A /* teams_always_online_v2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teams_always_online_v2App.swift; sourceTree = "<group>"; };
+		BD1126002C136ED7008F9E6A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BD1126022C136EDA008F9E6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD1126052C136EDA008F9E6A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD1126072C136EDA008F9E6A /* teams_always_online_v2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = teams_always_online_v2.entitlements; sourceTree = "<group>"; };
+		BD11260C2C136EDA008F9E6A /* teams-always-online-v2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "teams-always-online-v2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD1126102C136EDA008F9E6A /* teams_always_online_v2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teams_always_online_v2Tests.swift; sourceTree = "<group>"; };
+		BD1126162C136EDA008F9E6A /* teams-always-online-v2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "teams-always-online-v2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD11261A2C136EDA008F9E6A /* teams_always_online_v2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teams_always_online_v2UITests.swift; sourceTree = "<group>"; };
+		BD11261C2C136EDA008F9E6A /* teams_always_online_v2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teams_always_online_v2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD1125F82C136ED7008F9E6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1126092C136EDA008F9E6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1126132C136EDA008F9E6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD1125F22C136ED7008F9E6A = {
+			isa = PBXGroup;
+			children = (
+				BD1125FD2C136ED7008F9E6A /* teams-always-online-v2 */,
+				BD11260F2C136EDA008F9E6A /* teams-always-online-v2Tests */,
+				BD1126192C136EDA008F9E6A /* teams-always-online-v2UITests */,
+				BD1125FC2C136ED7008F9E6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD1125FC2C136ED7008F9E6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD1125FB2C136ED7008F9E6A /* teams-always-online-v2.app */,
+				BD11260C2C136EDA008F9E6A /* teams-always-online-v2Tests.xctest */,
+				BD1126162C136EDA008F9E6A /* teams-always-online-v2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD1125FD2C136ED7008F9E6A /* teams-always-online-v2 */ = {
+			isa = PBXGroup;
+			children = (
+				BD1125FE2C136ED7008F9E6A /* teams_always_online_v2App.swift */,
+				BD1126002C136ED7008F9E6A /* ContentView.swift */,
+				BD1126022C136EDA008F9E6A /* Assets.xcassets */,
+				BD1126072C136EDA008F9E6A /* teams_always_online_v2.entitlements */,
+				BD1126042C136EDA008F9E6A /* Preview Content */,
+			);
+			path = "teams-always-online-v2";
+			sourceTree = "<group>";
+		};
+		BD1126042C136EDA008F9E6A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BD1126052C136EDA008F9E6A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BD11260F2C136EDA008F9E6A /* teams-always-online-v2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BD1126102C136EDA008F9E6A /* teams_always_online_v2Tests.swift */,
+			);
+			path = "teams-always-online-v2Tests";
+			sourceTree = "<group>";
+		};
+		BD1126192C136EDA008F9E6A /* teams-always-online-v2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD11261A2C136EDA008F9E6A /* teams_always_online_v2UITests.swift */,
+				BD11261C2C136EDA008F9E6A /* teams_always_online_v2UITestsLaunchTests.swift */,
+			);
+			path = "teams-always-online-v2UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD1125FA2C136ED7008F9E6A /* teams-always-online-v2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD1126202C136EDA008F9E6A /* Build configuration list for PBXNativeTarget "teams-always-online-v2" */;
+			buildPhases = (
+				BD1125F72C136ED7008F9E6A /* Sources */,
+				BD1125F82C136ED7008F9E6A /* Frameworks */,
+				BD1125F92C136ED7008F9E6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "teams-always-online-v2";
+			productName = "teams-always-online-v2";
+			productReference = BD1125FB2C136ED7008F9E6A /* teams-always-online-v2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD11260B2C136EDA008F9E6A /* teams-always-online-v2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD1126232C136EDA008F9E6A /* Build configuration list for PBXNativeTarget "teams-always-online-v2Tests" */;
+			buildPhases = (
+				BD1126082C136EDA008F9E6A /* Sources */,
+				BD1126092C136EDA008F9E6A /* Frameworks */,
+				BD11260A2C136EDA008F9E6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD11260E2C136EDA008F9E6A /* PBXTargetDependency */,
+			);
+			name = "teams-always-online-v2Tests";
+			productName = "teams-always-online-v2Tests";
+			productReference = BD11260C2C136EDA008F9E6A /* teams-always-online-v2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD1126152C136EDA008F9E6A /* teams-always-online-v2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD1126262C136EDA008F9E6A /* Build configuration list for PBXNativeTarget "teams-always-online-v2UITests" */;
+			buildPhases = (
+				BD1126122C136EDA008F9E6A /* Sources */,
+				BD1126132C136EDA008F9E6A /* Frameworks */,
+				BD1126142C136EDA008F9E6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD1126182C136EDA008F9E6A /* PBXTargetDependency */,
+			);
+			name = "teams-always-online-v2UITests";
+			productName = "teams-always-online-v2UITests";
+			productReference = BD1126162C136EDA008F9E6A /* teams-always-online-v2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD1125F32C136ED7008F9E6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					BD1125FA2C136ED7008F9E6A = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					BD11260B2C136EDA008F9E6A = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BD1125FA2C136ED7008F9E6A;
+					};
+					BD1126152C136EDA008F9E6A = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BD1125FA2C136ED7008F9E6A;
+					};
+				};
+			};
+			buildConfigurationList = BD1125F62C136ED7008F9E6A /* Build configuration list for PBXProject "teams-always-online-v2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD1125F22C136ED7008F9E6A;
+			productRefGroup = BD1125FC2C136ED7008F9E6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD1125FA2C136ED7008F9E6A /* teams-always-online-v2 */,
+				BD11260B2C136EDA008F9E6A /* teams-always-online-v2Tests */,
+				BD1126152C136EDA008F9E6A /* teams-always-online-v2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD1125F92C136ED7008F9E6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1126062C136EDA008F9E6A /* Preview Assets.xcassets in Resources */,
+				BD1126032C136EDA008F9E6A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD11260A2C136EDA008F9E6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1126142C136EDA008F9E6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD1125F72C136ED7008F9E6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1126012C136ED7008F9E6A /* ContentView.swift in Sources */,
+				BD1125FF2C136ED7008F9E6A /* teams_always_online_v2App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1126082C136EDA008F9E6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1126112C136EDA008F9E6A /* teams_always_online_v2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1126122C136EDA008F9E6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD11261B2C136EDA008F9E6A /* teams_always_online_v2UITests.swift in Sources */,
+				BD11261D2C136EDA008F9E6A /* teams_always_online_v2UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD11260E2C136EDA008F9E6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD1125FA2C136ED7008F9E6A /* teams-always-online-v2 */;
+			targetProxy = BD11260D2C136EDA008F9E6A /* PBXContainerItemProxy */;
+		};
+		BD1126182C136EDA008F9E6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD1125FA2C136ED7008F9E6A /* teams-always-online-v2 */;
+			targetProxy = BD1126172C136EDA008F9E6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BD11261E2C136EDA008F9E6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD11261F2C136EDA008F9E6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		BD1126212C136EDA008F9E6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "teams-always-online-v2/teams_always_online_v2.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"teams-always-online-v2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AthlanTech.teams-always-online-v2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BD1126222C136EDA008F9E6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "teams-always-online-v2/teams_always_online_v2.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"teams-always-online-v2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AthlanTech.teams-always-online-v2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		BD1126242C136EDA008F9E6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AthlanTech.teams-always-online-v2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/teams-always-online-v2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/teams-always-online-v2";
+			};
+			name = Debug;
+		};
+		BD1126252C136EDA008F9E6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AthlanTech.teams-always-online-v2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/teams-always-online-v2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/teams-always-online-v2";
+			};
+			name = Release;
+		};
+		BD1126272C136EDA008F9E6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AthlanTech.teams-always-online-v2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "teams-always-online-v2";
+			};
+			name = Debug;
+		};
+		BD1126282C136EDA008F9E6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AthlanTech.teams-always-online-v2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "teams-always-online-v2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD1125F62C136ED7008F9E6A /* Build configuration list for PBXProject "teams-always-online-v2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD11261E2C136EDA008F9E6A /* Debug */,
+				BD11261F2C136EDA008F9E6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD1126202C136EDA008F9E6A /* Build configuration list for PBXNativeTarget "teams-always-online-v2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD1126212C136EDA008F9E6A /* Debug */,
+				BD1126222C136EDA008F9E6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD1126232C136EDA008F9E6A /* Build configuration list for PBXNativeTarget "teams-always-online-v2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD1126242C136EDA008F9E6A /* Debug */,
+				BD1126252C136EDA008F9E6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD1126262C136EDA008F9E6A /* Build configuration list for PBXNativeTarget "teams-always-online-v2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD1126272C136EDA008F9E6A /* Debug */,
+				BD1126282C136EDA008F9E6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD1125F32C136ED7008F9E6A /* Project object */;
+}
